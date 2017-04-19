@@ -1,0 +1,14 @@
+/*c'est la typo !*/
+
+/*type typo*/
+p,li,h4 {
+  font-family: 'Josefin Slab', serif;
+}
+h3,h2,h1 {
+  font-family: 'Fredericka the Great', cursive;
+}
+
+/*bold*/
+li,h4{
+  font-weight: 700;
+}
