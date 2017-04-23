@@ -1,0 +1,110 @@
+#container{
+  display : grid;
+  grid-template-columns: 30% auto 30%;
+  grid-template-rows: 40% 40% 40% 40% 40% 40%;
+  grid-column-gap: 1%;
+ grid-row-gap: 2%;
+}
+
+
+#debutanttitre{
+  grid-column: 1;
+  grid-row: 1 / 6;
+    justify-self: center;
+      align-self: center;
+}
+
+#debutant .todo{
+    grid-column: 1;
+    grid-row: 1 / 6;
+}
+
+#debutant .objectif{
+    grid-column: 1;
+    grid-row: 2 / 6;
+    }
+
+#debutant .sujets_developper{
+grid-column: 1;
+    grid-row: 3 / 6;
+}
+
+#debutant .sites_exemples{
+    grid-column: 1;
+    grid-row: 4 / 6;
+}
+
+#debutant .objectif{
+    grid-column: 1;
+    grid-row: 5 / 6;
+  }
+
+
+
+
+#intermediairetitre{
+  grid-column: 2;
+  grid-row: 1 / 6;
+    justify-self: center;
+      align-self: center;
+}
+
+#intermediaire .todo{
+    grid-column: 2;
+    grid-row: 1 / 5;
+}
+
+#intermediaire.objectif{
+    grid-column: 2;
+    grid-row: 2 / 5;
+}
+
+#intermediaire .sujets_developper{
+    grid-column: 2;
+    grid-row: 3 / 5;
+        background-color:
+}
+
+#intermediaire .sites_exemples{
+    grid-column: 2;
+    grid-row: 4 / 5;
+}
+
+#intermediaire .objectif{
+    grid-column: 2;
+    grid-row: 5 / 5;
+}
+
+
+#avancetitre{
+  grid-column: 3;
+  grid-row: 1 / 6;
+    justify-self: center;
+      align-self: center;
+}
+
+#avance .todo{
+    grid-column: 3;
+    grid-row: 2 / 6;
+}
+
+#intermedaire.objectif{
+    grid-column: 3;
+    grid-row: 3 / 6;
+}
+
+#intermedaire .sujets_developper{
+    grid-column: 3;
+    grid-row: 4 / 6;
+background-color: blue;
+}
+
+#intermedaire .sites_exemples{
+    grid-column: 3;
+    grid-row: 5 / 6;
+}
+
+#intermediare .objectif{
+    grid-column: 3;
+    grid-row: 6 / 6;
+}
