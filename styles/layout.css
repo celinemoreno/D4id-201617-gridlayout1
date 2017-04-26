@@ -3,26 +3,25 @@
     width: 95%;
     height: 95vh;
     display: grid;
-    grid-template-columns: 33% auto 33%;
+    grid-template-columns:33% 34% 33%;
     grid-template-rows: 100%;
-    border: 1px solid black;
 }
 
 div {
-    padding: 2%;
+    padding: 6px;
     border: 1px solid black;
 }
 
-#debutant {
+.column {
     display: grid;
-    grid-template-rows: 20% 10% 5% 40% 25%;
+    grid-template-rows: 20% 10% auto 40% auto;
 }
 
-#debutant .todo {
+#debutant .todo, #intermediaire .todo, #avance .todo{
     grid-row: 1;
 }
 
-#debutanttitre {
+#debutanttitre, #intermediairetitre, #avancetitre {
     grid-row: 2;
     align-self: strech;
     display: flex;
@@ -30,72 +29,14 @@ div {
     align-items: center;
 }
 
-#debutant .objectif {
+#debutant .objectif, #intermediaire .objectif, #avance .objectif {
     grid-row: 3;
 }
 
-#debutant .sujets_developper {
+#debutant .sujets_developper, #intermediaire .sujets_developper, #avance .sujets_developper {
     grid-row: 4;
 }
 
-#debutant .sites_exemples {
-    grid-row: 5;
-}
-
-#intermediaire {
-    display: grid;
-    grid-template-rows: 20% 10% 5% 40% 25%;
-}
-
-#intermediaire .todo {
-    grid-row: 1;
-}
-
-#intermediairetitre {
-  grid-row: 2;
-  align-self: strech;
-  display: flex;
-  justify-content: right;
-  align-items: center;
-}
-
-#intermediaire.objectif {
-    grid-row: 3;
-}
-
-#intermediaire .sujets_developper {
-    grid-row: 4;
-}
-
-#intermediaire .sites_exemples {
-    grid-row: 5;
-}
-
-#avance {
-    display: grid;
-    grid-template-rows: 20% 10% 5% 40% 25%;
-}
-
-#avance .todo {
-    grid-row: 1;
-}
-
-#avancetitre {
-  grid-row: 2;
-  align-self: strech;
-  display: flex;
-  justify-content: right;
-  align-items: center;
-}
-
-#avance.objectif {
-    grid-row: 3
-}
-
-#avance .sujets_developper {
-    grid-row: 4;
-}
-
-#avance .sites_exemples {
+#debutant .sites_exemples, #intermediaire .sites_exemples, #avance .sites_exemples {
     grid-row: 5;
 }
