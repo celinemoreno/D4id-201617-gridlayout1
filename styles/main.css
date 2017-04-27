@@ -35,6 +35,16 @@ li {
   color: #2c2c2c;
 }
 
+h2 span {
+ font-size: 0.8em; /* 16x1.125=18 */
+ color: #616161;
+}
+
+.titre{
+   font-size: 3em;   /* 16x2.125=34 */
+   color: #2c2c2c;
+}
+
 #example-styles{
   margin-top: 10%;
 }
